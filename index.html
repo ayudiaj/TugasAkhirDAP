@@ -8,145 +8,178 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,900&family=Inter:wght@500;800&family=Josefin+Sans:wght@700&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
-  
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Inter:wght@500;800&family=Josefin+Sans:wght@700&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
   </head>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg bg-warning">
-    <div class="container-fluid mx-3">
+  <nav class="navbar text-bg-warning navbar-expand-lg sticky-top">
+    <div class="container-fluid mx-5">
       <a class="navbar-brand" href="#">
         <img
           src="Assets/Logo-Stunting.png"
           alt="Logo" width="auto" height="30px" class="d-inline-block align-text-top">
           StuntingWeb
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-    <div class="d-flex nav-underline" >
-      <ul class="navbar-nav collapse navbar-collapse me-auto mb-2 mb-lg-0" id="navbarTogglerDemo02">
-        <li class="nav-item">
-          <a class="nav-link  text-black" aria-current="page" href="#">Beranda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-black" href="#page1">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-black" href="#">Informasi Gizi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-black" href="#">Tentang</a>
-        </li>
-      </ul>
+      <div class="collapse navbar-collapse justify-content-end nav-underline" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link px-3 active" href="#">Beranda</a>
+          <a class="nav-link px-3" href="#">Menu</a>
+          <a class="nav-link px-3" href="#">Informasi Gizi</a>
+          <a class="nav-link px-3" href="#">Tentang</a>
+        </div>
+      </div>
     </div>
-  </div>
   </nav>
-<!--   
-  <nav class="navbar text-bg-warning navbar-expand-lg sticky-top">
-    <div class="container-fluid mx-3 my-2">
-      <a class="navbar-brand" href="#">
-        <img
-          src="Assets/Logo-Stunting.png"
-          alt="Logo" width="auto" height="30px" class="d-inline-block align-text-top">
-          Bootstrap
-      </a>
 
-      <ul class="nav justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link  text-black" aria-current="page" href="#">Beranda</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-black" href="#page1">Menu</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-black" href="#">Informasi Gizi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link  text-black" aria-disabled="true">Tentang</a>
-        </li>
-      </ul>
-    </div>
-  </nav> -->
-
-  <div class="container my-4 ml-5">
-    <div class="row align-items-start">
-      <div class="col-xl-7 col-md-7 col-sm-12 px-5" >
-        <h1 style="font-weight: 900; font-size: 4em;">Resep Sehat, Anak Cerdas dan Kuat</h1>
-        <p>Pentingnya memasak dan mengonsumsi makanan sehat untuk mendukung pertumbuhan dan perkembangan anak. </p>
-        <button type="button" class="btn btn-primary">Primary</button>
+  <div class="container">
+    <div class="row align-items-start pt-3">
+      <div class="col-xl-6 col-md-6 col-sm-12 px-5 pt-4" >
+        <!--  -->
+        <h1 style="font-size: 4.5em;" class="fw-bold lh-sm">Resep <span class="text-success">Sehat</span>, Anak Cerdas dan Kuat</h1>
+        <p class="fs-6 mt-3">Pentingnya memasak dan mengonsumsi makanan sehat untuk mendukung pertumbuhan dan perkembangan anak. </p>
+        <button type="button" class="btn btn-success rounded-pill px-5 py-2 mt-3">Eksplorasi</button>
       </div>
-      <div class="col-xl-5 col-md-5 col-sm-12">
-        <img style="width: 100%;" src="Assets/HeroImage.png" alt="">
-
+      <div class="col-xl-6 col-md-6 col-sm-12 d-flex justify-content-center" >
+        <img src="Assets/img-hero.svg" alt="" style="height: 500px;">
       </div>
     </div>
   </div>
 
-  <div class="container mx-0 bg-primary">
-    <div class="row">
-      <div class="col-xl-6 col-md-6 .font-weighttt" style="width: 500px;">
-        </div>
-      <div class="col-md-6"><H1>HALOOOOOO</H1></div>
-      <!-- <div class="col-xl-5 col-md-5 justify-content-center">
-      </div> -->
-    </div>
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF9D9" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,202.7C480,213,600,171,720,133.3C840,96,960,64,1080,74.7C1200,85,1320,139,1380,165.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
 
-    <div class="row">
-      <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+  <div class="container py-5 px-5">
+    <header class="text-center">
+      <h3 class="fw-normal">Rekomendasi Menu</h3>
+      <h1>Menu Sehat Andalan</h1>
+    </header>
+    <div class="row row-cols-1 row-cols-md-3 p-5 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bubur Ikan Jagung</h5>
+            <p class="card-text">Tepung jagung organik, ikan, tempe</p>
+            <button type="button" class="btn btn-success rounded-pill px-5 py-2 mt-3">Detail Menu</button>
+          </div>
         </div>
       </div>
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bubur Singkong Saus Jeruk</h5>
+            <p class="card-text">singkong putih, susu, jeruk, madu...</p>
+            <button type="button" class="btn btn-success rounded-pill px-5 py-2 mt-3">Detail Menu</button>
+          </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="row" id="page1">
-      <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
-        </div>
-      </div>
-      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-            content.</p>
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Nasi Tim Ikan Telur Sayuran</h5>
+            <p class="card-text">ikan kembung, telur puyuh, sawi hijau</p>
+            <button type="button" class="btn btn-success rounded-pill px-5 py-2 mt-3">Detail Menu</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
+
+
+  
+  <div class="container py-5 px-5">
+    <header class="text-center">
+      <h3 class="fw-normal">Rekomendasi Menu</h3>
+      <h1>Menu Sehat Andalan</h1>
+    </header>
+    <div class="row row-cols-1 row-cols-md-4 p-5 g-3">
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bubur Ikan Jagung</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Bubur Ikan Jagung</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="carouselExampleControlsNoTouching" class="carousel slide p-5" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active align-center">
+        <div class="card" style="width: 18rem;">
+          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

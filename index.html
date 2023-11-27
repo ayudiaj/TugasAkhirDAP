@@ -6,16 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>StuntingWeb</title>
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Inter:wght@500;800&family=Josefin+Sans:wght@700&family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">
   </head>
 </head>
-
 <body>
-
   <nav class="navbar text-bg-warning navbar-expand-lg sticky-top">
     <div class="container-fluid mx-5">
       <a class="navbar-brand" href="#">
@@ -39,11 +43,10 @@
   </nav>
 
   <div class="container">
-    <div class="row align-items-start pt-3">
-      <div class="col-xl-6 col-md-6 col-sm-12 px-5 pt-4" >
-        <!--  -->
+    <div class="row align-items-start py-3">
+      <div class="col-xl-6 col-md-6 col-sm-12 px-5" >
         <h1 style="font-size: 4.5em;" class="fw-bold lh-sm">Resep <span class="text-success">Sehat</span>, Anak Cerdas dan Kuat</h1>
-        <p class="fs-6 mt-3">Pentingnya memasak dan mengonsumsi makanan sehat untuk mendukung pertumbuhan dan perkembangan anak. </p>
+        <p class="fs-6 mt-2">Pentingnya memasak dan mengonsumsi makanan sehat untuk mendukung pertumbuhan dan perkembangan anak. </p>
         <button type="button" class="btn btn-success rounded-pill px-5 py-2 mt-3">Eksplorasi</button>
       </div>
       <div class="col-xl-6 col-md-6 col-sm-12 d-flex justify-content-center" >
@@ -54,12 +57,12 @@
 
   <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#FFF9D9" fill-opacity="1" d="M0,64L60,96C120,128,240,192,360,202.7C480,213,600,171,720,133.3C840,96,960,64,1080,74.7C1200,85,1320,139,1380,165.3L1440,192L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z"></path></svg> -->
 
-  <div class="container py-5 px-5">
+  <div class="container px-5">
     <header class="text-center">
-      <h3 class="fw-normal">Rekomendasi Menu</h3>
-      <h1>Menu Sehat Andalan</h1>
+      <h6 class="">Rekomendasi Menu</h6>
+      <h3 class="fw-bold">Menu Sehat Andalan</h3>
     </header>
-    <div class="row row-cols-1 row-cols-md-3 p-5 g-3">
+    <div class="row row-cols-1 row-cols-md-3 px-3 g-3">
       <div class="col">
         <div class="card">
           <img src="Assets/menu-1.png" class="card-img-top" alt="...">
@@ -92,13 +95,11 @@
       </div>
     </div>
   </div>
-
-
   
   <div class="container py-5 px-5">
     <header class="text-center">
-      <h3 class="fw-normal">Rekomendasi Menu</h3>
-      <h1>Menu Sehat Andalan</h1>
+      <h6 class="">Rekomendasi Menu</h6>
+      <h3 class="fw-bold">Menu Sehat Andalan</h3>
     </header>
     <div class="row row-cols-1 row-cols-md-4 p-5 g-3">
       <div class="col">
@@ -140,50 +141,148 @@
     </div>
   </div>
 
-  <div id="carouselExampleControlsNoTouching" class="carousel slide p-5" data-bs-touch="false">
+  
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <header class="text-center">
+      <h6 class="">Rekomendasi Menu</h6>
+      <h3 class="fw-bold">Menu Sehat Andalan</h3>
+    </header>
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
     <div class="carousel-inner">
-      <div class="carousel-item active align-center">
-        <div class="card" style="width: 18rem;">
-          <img src="Assets/menu-1.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+    
+      <div class="carousel-item active">
+        <div class="container py-3">
+          <div class="card text-white bg-dark px-3"  style="text-align: center;">
+            <div class="card-header" >
+              <div class="">
+                <!-- <div class="user-online-indicator"></div> -->
+                <img style="vertical-align: middle;
+                border-radius: 50%;
+                width: 115px;
+                height: 115px; object-fit: cover;" class="avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="user-image"
+                />
+              </div>
+              <div class="profile-name"><h1>Aiony Haust</h1></div>
+              <div class="profile-role"><p>Saya menemukan situs ini saat mencari informasi tentang makanan sehat untuk mencegah stunting pada anak. Web ini  memberikan panduan yang jelas dan mudah diikuti untuk memastikan kebutuhan gizi anak-anak saya terpenuhi.</p></div>
+            </div>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-         </div>
+        <div class="container py-3">
+          <div class="card text-white bg-dark px-3"  style="text-align: center;">
+            <div class="card-header" >
+              <div class="">
+                <!-- <div class="user-online-indicator"></div> -->
+                <img style="vertical-align: middle;
+                border-radius: 50%;
+                width: 115px;
+                height: 115px; object-fit: cover;" class="avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="user-image"
+                />
+              </div>
+              <div class="profile-name"><h1>Aiony Haust</h1></div>
+              <div class="profile-role"><p>Saya menemukan situs ini saat mencari informasi tentang makanan sehat untuk mencegah stunting pada anak. Web ini  memberikan panduan yang jelas dan mudah diikuti untuk memastikan kebutuhan gizi anak-anak saya terpenuhi.</p></div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-         </div>
+        <div class="container py-3">
+          <div class="card text-white bg-dark px-3"  style="text-align: center;">
+            <div class="card-header" >
+              <div class="">
+                <!-- <div class="user-online-indicator"></div> -->
+                <img style="vertical-align: middle;
+                border-radius: 50%;
+                width: 115px;
+                height: 115px; object-fit: cover;" class="avatar" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80" alt="user-image"
+                />
+              </div>
+              <div class="profile-name"><h1>Aiony Haust</h1></div>
+              <div class="profile-role"><p>Saya menemukan situs ini saat mencari informasi tentang makanan sehat untuk mencegah stunting pada anak. Web ini  memberikan panduan yang jelas dan mudah diikuti untuk memastikan kebutuhan gizi anak-anak saya terpenuhi.</p></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
 
+  <div class="container pb-5">
+    <header class="text-center">
+      <h6 class="">Rekomendasi Menu</h6>
+      <h3 class="fw-bold">Menu Sehat Andalan</h3>
+    </header>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="Assets/thumbnail.png" alt="Los Angeles" style="width:100%;">
+          <div class="carousel-caption">
+            <p>Asupan gizi sehari-hari untuk anak sangatlah penting</p>
+            <h3>Mau masak apa hari ini bunda?</h3>
+            <button type="button" class="btn btn-warning rounded-pill px-5 py-2 mt-3">Lihat Resep</button>
+          </div>
+        </div>
+    
+      </div>
+  </div>
 
+  
+  <div class="container-fluid bg-warning">
+    <div class="row px-5 py-5 mx-5">
+      <a class="navbar-brand p-3" href="#">
+        <img
+          src="Assets/Logo-Stunting.png"
+          alt="Logo" width="auto" height="25px" class="d-inline-block align-text-top">
+          <span class="h6">StuntingWeb</span>
+      </a>
+      <div class="col-md-3 col-sm-5">
+        <h6>Tentang</h6>
+        <p>"StuntingMenu" adalah sebuah situs web yang bertujuan untuk memberikan solusi terkait stunting pada bayi melalui resep-resep makanan yang kaya nutrisi.</p>
+      </div>
+      <div class="col-md-3 col-sm-5">
+        <h6>Products</h6>
+        <ul>
+          <li>Hallo</li>
+          <li>Hallo</li>
+          <li>Hallo</li>
+          <li>Hallo</li>
+          <li>Hallo</li>
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h6>Contact Us</h6>
+        <p>cukurukukstudent@gmail.com</p>
+        <p>+62 12 345 6789</p>
+        <p>Jl. Veteran No.10-11, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145</p>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <h6>Our Social Media</h6>
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+  </div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
